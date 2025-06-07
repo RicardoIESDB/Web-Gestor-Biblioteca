@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestión de Usuarios</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dashboard">
+  <header>
+    <h1>Gestión de Usuarios</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="dashboard.html">Volver al Panel</a></li>
+        <li><a href="index.html">Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Registrar Nuevo Usuario</h2>
+    <form>
+      <label>Nombre:<br><input type="text" required></label><br><br>
+      <label>Email:<br><input type="email" required></label><br><br>
+      <label>Rol:<br>
+        <select required>
+          <option value="usuario">Usuario</option>
+          <option value="admin">Administrador</option>
+        </select>
+      </label><br><br>
+      <button type="submit">Registrar Usuario</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Biblioteca Digital - Ricardo Aucapiña</p>
+  </footer>
+</body>
+</html>
